@@ -89,3 +89,28 @@ body{
     width: 20px;
     height: 20px;
 }
+@media (min-width: 576px){
+    #mobileimg{
+        display: none;
+    }
+}
+@media (max-width: 576px){
+    #dekstopimg{
+        display: none;
+    }
+    .box{
+        flex-direction: column;
+        width: 90vw;
+        height: auto;
+    }
+    #mobileimg{
+        width: 100%;
+        height: 90%;
+    }
+    .detail{
+        margin: 0px 20px;
+    }
+    .detail button{
+        margin-bottom: 20px;
+    }
+}
