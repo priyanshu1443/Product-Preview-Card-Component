@@ -22,13 +22,15 @@ body{
     width: 550px;
     gap: 20px;
     background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
 }
 
 .box img {
     width: 300px;
     height: 400px;
+    border-radius: 10px;
 }
-.detail h6{
+.box .detail h6{
     margin: 10px;
     color: hsl(228, 12%, 48%);
     letter-spacing: 2px;
@@ -36,14 +38,14 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
-.detail p{
+.box .detail p{
     color:hsl(228, 12%, 48%);
     font-size: 14px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
-.detail h1{
+.box .detail h1{
     margin: 15px 0px;
     color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
@@ -60,14 +62,14 @@ body{
     font-weight: 700;
 }
 
-.price h5{
+.price h4{
     margin: 20px;
     color:hsl(228, 12%, 48%);
     text-decoration-line: line-through;
 }
-.detail button{
+.box .detail button{
     width: 250px;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -81,21 +83,21 @@ body{
     cursor: pointer;
     
 }
-.detail button:hover{
-    background-color: hsl(212, 21%, 14%);
+.box .detail button:hover{
+    background-color: #2d624f;
 }
 
-.detail button img{
+.box .detail button img{
     width: 20px;
     height: 20px;
 }
 @media (min-width: 576px){
-    #mobileimg{
+    .box #mobileimg{
         display: none;
     }
 }
 @media (max-width: 576px){
-    #dekstopimg{
+    .box #dekstopimg{
         display: none;
     }
     .box{
