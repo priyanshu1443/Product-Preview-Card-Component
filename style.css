@@ -47,7 +47,7 @@ body{
 }
 .box .detail h1{
     margin: 15px 0px;
-    color: hsl(158, 36%, 37%);
+    color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
 }
 .price{
@@ -56,13 +56,13 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
-.price h1{
+.price h2{
     color: hsl(158, 36%, 37%);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
-.price h4{
+.price h5{
     margin: 20px;
     color:hsl(228, 12%, 48%);
     text-decoration-line: line-through;
